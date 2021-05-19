@@ -14,6 +14,10 @@ The default export contains all rules for ES2021, React, and TypeScript.
 npm install --save-dev @bitpas/eslint-config
 ```
 
+Manual [peer dependency](https://nodejs.org/en/blog/npm/peer-dependencies/) installation may be required depending on your npm version.
+
+> npm versions 1, 2, and 7 will automatically install peerDependencies if they are not explicitly depended upon higher in the dependency tree. For npm versions 3 through 6, you will receive a warning that the peerDependency is not installed instead.
+
 2. Install base peer dependencies
 
 ```sh
