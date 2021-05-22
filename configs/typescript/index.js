@@ -1,6 +1,9 @@
 /* prettier-ignore */
 
 module.exports = {
+  extends: [
+    './rules/imports',
+  ].map(require.resolve),
   overrides: [
     {
       files: ['*.ts', '*.tsx'],
