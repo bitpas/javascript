@@ -7,8 +7,4 @@ module.exports = {
     './rules/es',
     './rules/imports',
   ].map(require.resolve),
-  parserOptions: {
-    ecmaVersion: 2021,
-    sourceType: 'module',
-  },
 };
