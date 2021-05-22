@@ -1,7 +1,7 @@
 {
   "name": "@bitpas/eslint-config",
   "description": "Bit Pas' ESLint config",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "keywords": [
     "eslint",
     "eslintconfig",
