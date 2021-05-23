@@ -33,7 +33,7 @@ npm install --save-dev eslint-plugin-{react,react-hooks,jsx-a11y}
 4. Install TypeScript peer dependencies
 
 ```sh
-npm install --save-dev @typescript-eslint/parser @typescript-eslint/eslint-plugin
+npm install --save-dev @typescript-eslint/{parser,eslint-plugin}
 
 ```
 
