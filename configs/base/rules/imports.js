@@ -29,6 +29,28 @@ module.exports = {
     'import/no-unused-modules': 'off',
 
     // Style guide
+    'import/first': 'error',
+    'import/exports-last': 'off',
     'import/no-duplicates': 'error',
+    'import/no-namespace': 'off',
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        js: 'never',
+        json: 'never',
+      },
+    ],
+    'import/order': 'error',
+    'import/newline-after-import': 'error',
+    'import/prefer-default-export': 'error',
+    'import/max-dependencies': 'off',
+    'import/no-unassigned-import': 'off',
+    'import/no-named-default': 'error',
+    'import/no-default-export': 'off',
+    'import/no-named-export': 'off',
+    'import/no-anonymous-default-export': 'error',
+    'import/group-exports': 'off',
+    'import/dynamic-import-chunkname': 'off',
   },
 };
