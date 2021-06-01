@@ -28,6 +28,13 @@ module.exports = {
     'import/no-mutable-exports': 'error',
     'import/no-unused-modules': 'off',
 
+    // Module systems
+    'import/unambiguous': 'off',
+    'import/no-commonjs': 'off',
+    'import/no-amd': 'off',
+    'import/no-nodejs-modules': 'off',
+    'import/no-import-module-exports': 'error',
+
     // Style guide
     'import/first': 'error',
     'import/exports-last': 'off',
