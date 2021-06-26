@@ -43,6 +43,6 @@ Extend in `.eslintrc`
 
 ```js:title=.eslintrc.js
 module.exports = {
-  extends: [@bitpas/eslint-config],
+  extends: ['@bitpas/eslint-config'],
 };
 ```
