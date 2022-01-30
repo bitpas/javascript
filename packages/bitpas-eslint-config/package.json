@@ -13,14 +13,14 @@
   "author": "Ryan Todd Garza <ryantoddgarza@gmail.com>",
   "license": "MIT",
   "main": "index.js",
-  "homepage": "https://github.com/bitpas/bitpas/tree/main/packages/eslint-config#readme",
+  "homepage": "https://github.com/bitpas/javascript/tree/main/packages/bitpas-eslint-config",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpas/bitpas.git",
-    "directory": "packages/eslint-config"
+    "url": "https://github.com/bitpas/javascript.git",
+    "directory": "packages/bitpas-eslint-config"
   },
   "bugs": {
-    "url": "https://github.com/bitpas/bitpas/issues"
+    "url": "https://github.com/bitpas/javascript/issues"
   },
   "peerDependencies": {
     "@typescript-eslint/parser": "^4",
