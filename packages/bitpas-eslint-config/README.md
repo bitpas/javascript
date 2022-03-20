@@ -39,7 +39,7 @@ npm install --save-dev @typescript-eslint/{parser,eslint-plugin}
 
 ## Usage
 
-Extend in `.eslintrc`
+Extend in `.eslintrc.js`
 
 ```js:title=.eslintrc.js
 module.exports = {
