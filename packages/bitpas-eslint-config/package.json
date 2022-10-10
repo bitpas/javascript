@@ -23,12 +23,12 @@
     "url": "https://github.com/bitpas/javascript/issues"
   },
   "peerDependencies": {
-    "@typescript-eslint/parser": "^5 || ^4",
-    "@typescript-eslint/eslint-plugin": "^5 || ^4",
-    "eslint": "^8 || ^7",
-    "eslint-plugin-import": "^2",
-    "eslint-plugin-jsx-a11y": "^6",
-    "eslint-plugin-react": "^7",
-    "eslint-plugin-react-hooks": "^4"
+    "@typescript-eslint/parser": "^5.0.0 || ^4.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0 || ^4.0.0",
+    "eslint": "^8.0.0 || ^7.0.0",
+    "eslint-plugin-import": "^2.0.0",
+    "eslint-plugin-jsx-a11y": "^6.0.0",
+    "eslint-plugin-react": "^7.0.0",
+    "eslint-plugin-react-hooks": "^4.0.0"
   }
 }
