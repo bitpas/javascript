@@ -1,7 +1,10 @@
 {
   "name": "@bitpas/eslint-config",
-  "description": "Bit Pas' ESLint config",
   "version": "0.6.2",
+  "description": "Bit Pas' ESLint config",
+  "main": "index.js",
+  "author": "Ryan Todd Garza <ryantoddgarza@gmail.com>",
+  "license": "MIT",
   "keywords": [
     "eslint",
     "eslintconfig",
@@ -10,9 +13,6 @@
     "typescript",
     "react"
   ],
-  "author": "Ryan Todd Garza <ryantoddgarza@gmail.com>",
-  "license": "MIT",
-  "main": "index.js",
   "homepage": "https://github.com/bitpas/javascript/tree/main/packages/bitpas-eslint-config",
   "repository": {
     "type": "git",
@@ -23,8 +23,9 @@
     "url": "https://github.com/bitpas/javascript/issues"
   },
   "peerDependencies": {
-    "@typescript-eslint/parser": "^5.0.0 || ^4.0.0",
+    "@bitpas/eslint-config-base": "^0.1.0",
     "@typescript-eslint/eslint-plugin": "^5.0.0 || ^4.0.0",
+    "@typescript-eslint/parser": "^5.0.0 || ^4.0.0",
     "eslint": "^8.0.0 || ^7.0.0",
     "eslint-plugin-import": "^2.0.0",
     "eslint-plugin-jsx-a11y": "^6.0.0",
