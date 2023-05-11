@@ -1,6 +1,6 @@
 {
   "name": "@bitpas/eslint-config",
-  "version": "0.6.2",
+  "version": "0.6.3",
   "description": "Bit Pas' ESLint config",
   "main": "index.js",
   "author": "Ryan Todd Garza <ryantoddgarza@gmail.com>",
